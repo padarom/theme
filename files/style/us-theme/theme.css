@@ -2380,15 +2380,6 @@ section.section-custom-map-2 section.section {
 	top: 35px;
 }
 
-.home-principles .principles-logo {
-	margin-top: 55px;
-	text-align: center;
-}
-
-.home-principles .principles-logo img {
-	max-width: 100%;
-}
-
 /* Responsive */
 @media (max-width: 991px) {
 	.home-concept {
@@ -2422,6 +2413,38 @@ section.section-custom-map-2 section.section {
 		max-width: 145px;
 	}
 }
+
+.home-principles .principles-logo {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.home-principles .principles-logo img {
+    max-width: 100%;
+}
+
+.home-testimonials .testimonial-section-head {
+    text-align: center;
+    margin: 35px 0;
+    opacity: .4;
+}
+
+.home-testimonials .testimonial-section-head img {
+    max-width: 55%;
+}
+
+.home-testimonials .testimonial {
+    text-align: center;
+    padding: 25px;
+}
+
+.home-testimonials .testimonial .testimonial-speaker {
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
 /* Page 404 */
 .page-not-found {
 	margin: 50px 0;
