@@ -2445,7 +2445,7 @@ section.section-custom-map-2 section.section {
 }
 
 .home-know-our-history {
-    background: url('../../images/us-theme/home/unkso_know_our_history.jpg') no-repeat center center;
+    background: url('../../images/us-theme/home/unkso_know_our_history.jpg') no-repeat top center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -2474,6 +2474,25 @@ section.section-custom-map-2 section.section {
         font-size: 45px;
         line-height: 50px;
     }
+}
+
+.home-donation-form {
+    text-align: center;
+}
+
+.home-donation-form .paypal-form {
+    margin: 35px 0;
+}
+
+.home-donation-form h3 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-donation-form p {
+    margin: 0;
+    padding: 0;
 }
 
 /* Page 404 */
