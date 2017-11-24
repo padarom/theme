@@ -2444,6 +2444,38 @@ section.section-custom-map-2 section.section {
     margin-top: 10px;
 }
 
+.home-know-our-history {
+    background: url('../../images/us-theme/home/unkso_know_our_history.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.home-know-our-history .call-to-action {
+    padding: 180px 0;
+    text-align: center;
+}
+
+.home-know-our-history .call-to-action h3 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    line-height: 65px;
+}
+
+@media(max-width: 767px) {
+    .home-know-our-history .call-to-action {
+        padding: 90px 0;
+        text-align: center;
+    }
+
+    .home-know-our-history .call-to-action h3 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+
 /* Page 404 */
 .page-not-found {
 	margin: 50px 0;
