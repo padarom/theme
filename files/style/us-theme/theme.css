@@ -2202,12 +2202,17 @@ section.section-custom-map-2 section.section {
 	background-color: #171717;
 	margin-bottom: 60px;
 	overflow: hidden;
-	padding: 20px 0 10px 0;
+	padding: 40px 0;
 	position: relative;
 	text-align: left;
 }
 
-.home-intro p {
+.home-intro .home-intro-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-intro .home-intro-wrapper p {
 	color: #FFF;
 	display: inline-block;
 	font-size: 1.4em;
@@ -2216,17 +2221,26 @@ section.section-custom-map-2 section.section {
 	padding-top: 5px;
 }
 
-.home-intro p span {
+.home-intro .home-intro-wrapper p span {
 	color: #999;
 	display: block;
 	font-size: 0.8em;
-	padding-top: 5px;
 }
 
+.home-intro .home-intro-wrapper .intro-center-display {
+    text-align: center;
+    flex: 1;
+}
+
+.home-intro .home-intro-wrapper .intro-center-display .into-banner-img img {
+    max-width: 100%;
+}
+
+/*
 .home-intro p em {
 	font-family: "Shadows Into Light", cursive;
 	font-size: 1.6em;
-}
+}*/
 
 .home-intro .get-started {
 	margin-top: 15px;
@@ -2364,6 +2378,15 @@ section.section-custom-map-2 section.section {
 	position: absolute;
 	left: 57%;
 	top: 35px;
+}
+
+.home-principles .principles-logo {
+	margin-top: 55px;
+	text-align: center;
+}
+
+.home-principles .principles-logo img {
+	max-width: 100%;
 }
 
 /* Responsive */
