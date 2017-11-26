@@ -2238,6 +2238,7 @@ section.section-custom-map-2 section.section {
 
 .home-intro .home-intro-wrapper .intro-action {
     margin: 20px 0;
+    width: 210px;
 }
 
 @media (max-width: 767px) {
