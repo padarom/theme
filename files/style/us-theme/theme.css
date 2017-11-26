@@ -2564,6 +2564,11 @@ section.section-custom-map-2 section.section {
     left: 0;
 }
 
+.home-word-rotator .lead {
+    max-width: 1100px;
+    margin: auto;
+}
+
 /* Page 404 */
 .page-not-found {
 	margin: 50px 0;

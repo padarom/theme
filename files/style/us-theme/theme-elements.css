@@ -4601,7 +4601,7 @@ html.boxed .pricing-table .plan, html.boxed .pricing-table h3 {
 }
 /* Full Width */
 .featured-boxes-full {
-	width: 100%;
+	min-width: 100%;
 }
 
 .featured-boxes-full > [class*="col-"] {
