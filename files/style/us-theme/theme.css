@@ -2236,6 +2236,28 @@ section.section-custom-map-2 section.section {
     max-width: 100%;
 }
 
+.home-intro .home-intro-wrapper .intro-action {
+    margin: 20px 0;
+}
+
+@media (max-width: 767px) {
+    .home-intro .home-intro-wrapper {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .home-intro .home-intro-wrapper .intro-center-display {
+        margin-bottom: 20px;
+        order: 1;
+    }
+
+    .home-intro .home-intro-wrapper .intro-action {
+        margin-top: 0;
+        display: inline-block;
+        order: 2;
+    }
+}
+
 .home-intro p em {
 	font-family: "Shadows Into Light", cursive;
 	font-size: 1.6em;
