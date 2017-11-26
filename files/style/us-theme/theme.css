@@ -2496,6 +2496,46 @@ section.section-custom-map-2 section.section {
     padding: 0;
 }
 
+.home-units {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-units .unit {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+}
+
+.home-units .unit .unit-primary {
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.home-units .unit:hover .unit-primary {
+    opacity: 0;
+}
+
+.home-units .unit .unit-primary {
+    -webkit-transition: opacity 300ms ease-in-out;
+    -moz-transition: opacity 300ms ease-in-out;
+    -ms-transition: opacity 300ms ease-in-out;
+    -o-transition: opacity 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
+}
+
+.home-units .unit .unit-secondary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.home-units .unit img {
+    width: 100%;
+}
+
 /* Page 404 */
 .page-not-found {
 	margin: 50px 0;
