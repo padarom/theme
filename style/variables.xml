@@ -5,7 +5,7 @@
 	<variable name="wcfPageColor"><![CDATA[rgba(255, 255, 255, 1)]]></variable>
 	<variable name="wcfPageLinkColor"><![CDATA[rgba(0, 136, 204, 1)]]></variable>
 	<variable name="wcfPageLinkHoverColor"><![CDATA[rgba(4, 151, 225, 1)]]></variable>
-	<variable name="pageLogo"><![CDATA[http://clanunknownsoldiers.com/hqdev/wcf/images/styleLogo-8b7363f5d21ca34687bbf88a27aab2d1769a9856.png]]></variable>
+	<variable name="pageLogo"><![CDATA[https://clanunknownsoldiers.com/wcf/images/us-theme/logos/unkso_master_logo.PNG]]></variable>
 	<variable name="individualLess"><![CDATA[@pageYellow:    #cf5300;
 @colorAirForce: #004ca2;
 @colorArmy:     #286e1e;
