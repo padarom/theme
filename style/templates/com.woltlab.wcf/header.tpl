@@ -11,8 +11,8 @@
 
 							<a href="/">
 								<img alt="UnkSo"
-									 width="130"
-									 height="65"
+									 width="240"
+									 height="60"
 									 data-sticky-width="100"
 									 data-sticky-height="50"
 									 data-sticky-top="34"
