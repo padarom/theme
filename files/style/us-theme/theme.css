@@ -2228,6 +2228,7 @@ section.section-custom-map-2 section.section {
 }
 
 .home-intro .home-intro-wrapper .intro-center-display {
+	padding: 0 10px;
     text-align: center;
     flex: 1;
 }
@@ -2238,10 +2239,14 @@ section.section-custom-map-2 section.section {
 
 .home-intro .home-intro-wrapper .intro-action {
     margin: 20px 0;
-    width: 210px;
 }
 
-@media (max-width: 767px) {
+.home-intro .home-intro-wrapper .intro-action a {
+	min-width: 200px;
+    margin-right: 0 !important;
+}
+
+@media (max-width: 991px) {
     .home-intro .home-intro-wrapper {
         text-align: center;
         flex-direction: column;
@@ -2254,6 +2259,7 @@ section.section-custom-map-2 section.section {
 
     .home-intro .home-intro-wrapper .intro-action {
         margin-top: 0;
+		text-align: center;
         display: inline-block;
         order: 2;
     }

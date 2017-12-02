@@ -376,6 +376,26 @@ html .label-light {
     color: #b64900;
 }
 
+html #tplHomeDev .btn {
+    border: none;
+    outline: none !important;
+    padding: 10px 15px;
+    text-shadow: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+html #tplHomeDev .btn-primary {
+    color: #fff;
+    background-color: rgb(207, 83, 0);
+    box-shadow: 0 0 0 0 rgba(207, 83, 0,1);
+}
+
+html #tplHomeDev .btn-primary:hover {
+    box-shadow: 0 0 0 3px rgba(255, 182, 133, .3);
+}
+
 html .btn-primary {
     color: #fff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -3989,6 +4009,10 @@ html .featured-boxes-full-scale > [class*="col-"]:nth-child(6) .featured-box-ful
 html .featured-boxes-full .featured-box-full-primary {
     background-color: #cf5300;
     color: #FFF;
+}
+
+html #tplHomeDev .featured-boxes-full .featured-box-full-secondary {
+    background-color: #21262d;
 }
 
 html .featured-boxes-full .featured-box-full-secondary {
