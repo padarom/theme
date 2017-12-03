@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package name="com.clanunknownsoldiers.theme" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
-	<packageinformation>
-		<packagename><![CDATA[=US= Dark Theme]]></packagename>
-		<packagedescription language="en"><![CDATA[The official Unknown Soldiers Dark Theme]]></packagedescription>
-		<version><![CDATA[1.1.1]]></version>
-		<date><![CDATA[2017-03-18]]></date>
-	</packageinformation>
-	<authorinformation>
-		<author><![CDATA[Christopher Mühl, George Grange]]></author>
-		<authorurl><![CDATA[https://padarom.io]]></authorurl>
-	</authorinformation>
-	<requiredpackages>
-		<requiredpackage minversion="2.1.5"><![CDATA[com.woltlab.wcf]]></requiredpackage>
-	</requiredpackages>
-	<instructions type="install">
-		<instruction type="style" default="true">style.tar</instruction>
-		<instruction type="file">files.tar</instruction>
-	</instructions>
-	<instructions type="update" fromversion="1.0.0">
-		<instruction type="style" default="true">style.tar</instruction>
-		<instruction type="file">files.tar</instruction>
-	</instructions>
-	<instructions type="update" fromversion="1.1.0">
-		<instruction type="style" default="true">style.tar</instruction>
-		<instruction type="file">files.tar</instruction>
-	</instructions>
+    <packageinformation>
+        <packagename><![CDATA[=US= Dark Theme]]></packagename>
+        <packagedescription language="en"><![CDATA[The official Unknown Soldiers Dark Theme]]></packagedescription>
+        <version><![CDATA[1.1.2]]></version>
+        <date><![CDATA[2017-03-18]]></date>
+    </packageinformation>
+    <authorinformation>
+        <author><![CDATA[Christopher Mühl, George Grange]]></author>
+        <authorurl><![CDATA[https://padarom.io]]></authorurl>
+    </authorinformation>
+    <requiredpackages>
+        <requiredpackage minversion="2.1.5"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+    </requiredpackages>
+    <instructions type="install">
+        <instruction type="style" default="true">style.tar</instruction>
+        <instruction type="file">files.tar</instruction>
+    </instructions>
+    <instructions type="update" fromversion="1.0.0">
+        <instruction type="style" default="true">style.tar</instruction>
+        <instruction type="file">files.tar</instruction>
+    </instructions>
+    <instructions type="update" fromversion="1.1.0">
+        <instruction type="style" default="true">style.tar</instruction>
+        <instruction type="file">files.tar</instruction>
+    </instructions>
+    <instructions type="update" fromversion="1.1.1">
+        <instruction type="style" default="true">style.tar</instruction>
+        <instruction type="file">files.tar</instruction>
+    </instructions>
 </package>
