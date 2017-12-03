@@ -16,9 +16,8 @@
 									 data-sticky-width="100"
 									 data-sticky-height="50"
 									 data-sticky-top="34"
-									 src="/wcf/images/us-theme/logos/unkso_master_logo.PNG"
+									 src="{$__wcf->getStyleHandler()->getStyle()->getPageLogo()}"
 								/>
-									 <!-- src="{$__wcf->getStyleHandler()->getStyle()->getPageLogo()}"> -->
 							</a>
 
 						</div>
