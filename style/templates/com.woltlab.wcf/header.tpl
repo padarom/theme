@@ -16,7 +16,7 @@
 									 data-sticky-width="100"
 									 data-sticky-height="50"
 									 data-sticky-top="34"
-									 src="/images/us-theme/logos/unkso_master_logo.PNG"
+									 src="/wcf/images/us-theme/logos/unkso_master_logo.PNG"
 								/>
 									 <!-- src="{$__wcf->getStyleHandler()->getStyle()->getPageLogo()}"> -->
 							</a>
@@ -39,16 +39,16 @@
 								</ul>
 							{/hascontent}
 						</nav>
-					</div>					
+					</div>
 					<div class="header-row">
 						<div class="header-nav">
 							<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
 								<i class="fa fa-bars"></i>
 							</button>
 							<div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
-								
+
 								{include file='mainMenu'}
-								
+
 							</div>
 						</div>
 					</div>
@@ -62,19 +62,19 @@
 
 <div id="main" class="{if $__wcf->getStyleHandler()->getStyle()->getVariable('useFluidLayout')}layoutFluid{else}layoutFixed{/if}{if $sidebarOrientation|isset && $sidebar|isset} sidebarOrientation{@$sidebarOrientation|ucfirst}{if $sidebarOrientation == 'right' && $sidebarCollapsed} sidebarCollapsed{/if}{/if}{if $light|isset} light{/if}">
 	<div>
-		<div>			
+		<div>
 			<section id="content" class="main" role="main" {if $paddingBottom|isset}style="padding-bottom: {$paddingBottom}px;"{/if}>
 				{if MODULE_WCF_AD && $__disableAds|empty}{@$__wcf->getAdHandler()->getAds('com.woltlab.wcf.header.content')}{/if}
-				
+
 				{event name='contents'}
-				
+
 				{if $hideHeader|empty}
 					<section class="page-header">
 						<div class="container">
 							{if $skipBreadcrumbs|empty}
 								{include file='breadcrumbs'}
 							{/if}
-							
+
 							{if $title|isset}
 							<div class="row">
 								<div class="col-md-12">
@@ -85,7 +85,7 @@
 								</div>
 							</div>
 							{/if}
-							
+
 						</div>
 					</section>
-				{/if}			
+				{/if}
