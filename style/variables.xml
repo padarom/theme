@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <variables xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/styleVariables.xsd">
-	<variable name="wcfLayoutMaxWidth"><![CDATA[100%]]></variable>
-	<variable name="wcfPageBackgroundColor"><![CDATA[rgba(29, 33, 39, 1)]]></variable>
-	<variable name="wcfPageColor"><![CDATA[rgba(255, 255, 255, 1)]]></variable>
-	<variable name="wcfPageLinkColor"><![CDATA[rgba(0, 136, 204, 1)]]></variable>
-	<variable name="wcfPageLinkHoverColor"><![CDATA[rgba(4, 151, 225, 1)]]></variable>
-	<variable name="pageLogo"><![CDATA[https://clanunknownsoldiers.com/wcf/images/us-theme/logos/unkso_master_logo.PNG]]></variable>
+	<variable name="wcfLayoutMaxWidth">100%</variable>
+	<variable name="wcfPageBackgroundColor">rgba(29, 33, 39, 1)</variable>
+	<variable name="wcfPageColor">rgba(255, 255, 255, 1)</variable>
+	<variable name="wcfPageLinkColor">rgba(0, 136, 204, 1)</variable>
+	<variable name="wcfPageLinkHoverColor">rgba(4, 151, 225, 1)</variable>
+	<variable name="pageLogo">https://clanunknownsoldiers.com/wcf/images/us-theme/logos/unkso_master_logo.PNG</variable>
 	<variable name="individualLess"><![CDATA[@pageYellow:    #cf5300;
 @colorAirForce: #004ca2;
 @colorArmy:     #286e1e;

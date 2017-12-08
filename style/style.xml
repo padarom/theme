@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/style.xsd">
 	<general>
-		<stylename><![CDATA[=US= Dark Theme]]></stylename>
-		<description language="en"><![CDATA[The official Unknown Soldiers Dark Theme]]></description>
-		<date><![CDATA[2017-03-18]]></date>
-		<version><![CDATA[1.1.2]]></version>
-		<image><![CDATA[stylePreview.jpg]]></image>
+		<stylename>=US= Dark Theme</stylename>
+		<description language="en">The official Unknown Soldiers Dark Theme</description>
+		<date>2017-03-18</date>
+		<version>1.1.2</version>
+		<image>stylePreview.jpg</image>
 	</general>
 	<author>
-		<authorname><![CDATA[Christopher Mühl, George Grange]]></authorname>
-		<authorurl><![CDATA[https://padarom.io]]></authorurl>
+		<authorname>Christopher Mühl, George Grange</authorname>
+		<authorurl>https://padarom.io</authorurl>
 	</author>
 	<files>
-		<variables><![CDATA[variables.xml]]></variables>
-		<templates><![CDATA[templates.tar]]></templates>
-		<images path="images/us-theme"><![CDATA[images.tar]]></images>
+		<variables>variables.xml</variables>
+		<templates>templates.tar</templates>
+		<images path="images/us-theme">images.tar</images>
 	</files>
 </style>
