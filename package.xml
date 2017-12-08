@@ -3,37 +3,50 @@
     <packageinformation>
         <packagename>=US= Dark Theme</packagename>
         <packagedescription language="en">The official Unknown Soldiers Dark Theme</packagedescription>
-        <version>1.1.4</version>
+        <version>1.1.5</version>
         <date>2017-12-07</date>
     </packageinformation>
+
     <authorinformation>
         <author>Christopher Mühl, George Grange</author>
         <authorurl>https://padarom.io</authorurl>
     </authorinformation>
+
     <requiredpackages>
         <requiredpackage minversion="2.1.5">com.woltlab.wcf</requiredpackage>
     </requiredpackages>
+
     <instructions type="install">
         <instruction type="style" default="true">style.tar</instruction>
         <instruction type="file">files.tar</instruction>
     </instructions>
+
     <instructions type="update" fromversion="1.0.0">
         <instruction type="style" default="true">style.tar</instruction>
         <instruction type="file">files.tar</instruction>
     </instructions>
+
     <instructions type="update" fromversion="1.1.0">
         <instruction type="style" default="true">style.tar</instruction>
         <instruction type="file">files.tar</instruction>
     </instructions>
+
     <instructions type="update" fromversion="1.1.1">
         <instruction type="style" default="true">style.tar</instruction>
         <instruction type="file">files.tar</instruction>
     </instructions>
+
     <instructions type="update" fromversion="1.1.2">
         <instruction type="style" default="true">style.tar</instruction>
         <instruction type="file">files.tar</instruction>
     </instructions>
+
     <instructions type="update" fromversion="1.1.3">
+        <instruction type="style" default="true">style.tar</instruction>
+        <instruction type="file">files.tar</instruction>
+    </instructions>
+
+    <instructions type="update" fromversion="1.1.4">
         <instruction type="style" default="true">style.tar</instruction>
         <instruction type="file">files.tar</instruction>
     </instructions>
