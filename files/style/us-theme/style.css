@@ -398,7 +398,7 @@ html .btn-primary:focus,
 html .btn-primary:active:hover,
 html .btn-primary:active:focus {
     background-color: rgb(207, 83, 0);
-    box-shadow: 0 0 0 3px rgba(255, 182, 133, .3);
+    box-shadow: 0 0 0 3px rgba(255, 182, 133, .6);
 }
 
 html .btn-primary.dropdown-toggle {
