@@ -50,4 +50,9 @@
         <instruction type="style" default="true">style.tar</instruction>
         <instruction type="file">files.tar</instruction>
     </instructions>
+
+    <instructions type="update" fromversion="1.1.5">
+        <instruction type="style" default="true">style.tar</instruction>
+        <instruction type="file">files.tar</instruction>
+    </instructions>
 </package>
